@@ -52,7 +52,7 @@ Your project must satisfy the following requirements:
   when it does not make sense in the context of your application to have full
   CR on one model). 
 - Have its own repository under your GitHub account (do not fork this repo).
-- Be deployed to Heroku (we will have a lesson on this later this week). (NOT REQUIRED)
+- Be deployed to Heroku (we will have a lesson on this later this week). (THIS IS REQUIRED)
 - Have good, clean Javascript code. Only include comments for documentation,
   and don't include any non-functional code. Use the auto-formatter regularly!
 - Demonstrate a good commit history.
