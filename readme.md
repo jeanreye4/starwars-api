@@ -47,10 +47,10 @@ Your project must satisfy the following requirements:
 
 - Be built using Express and Mongoose.
 - Have at least one model.
-- Have complete CR functionality implemented with RESTful routes. (You may
-  logically distribute CR functionality across models, should you decide to implement more than one. This is only allowed
+- Have complete CRUD functionality implemented with RESTful routes. (You may
+  logically distribute CRUD functionality across models, should you decide to implement more than one. This is only allowed
   when it does not make sense in the context of your application to have full
-  CR on one model). 
+  CRUD on one model). 
 - Have its own repository under your GitHub account (do not fork this repo).
 - Be deployed to Heroku (we will have a lesson on this later this week). (THIS IS REQUIRED)
 - Have good, clean Javascript code. Only include comments for documentation,
