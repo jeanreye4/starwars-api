@@ -82,7 +82,7 @@ graded.
 **_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository. Then, submit
 your project as an issue to this repo:
 
-[github.com/ga-dc/project2-gallery](https://github.com/ga-dc/project2-gallery/issues/new)
+[Project 6 Issue](https://git.generalassemb.ly/dc-wdi-node-express/api-project/issues)
 
 With your submission please include any questions you'd like answered, or
 specific things on which you'd like us to focus when giving feedback.
