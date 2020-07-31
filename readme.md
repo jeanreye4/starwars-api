@@ -92,9 +92,7 @@ Your submission must include **all** of the following:
 ### Necessary Deliverables
 
 Your project is due on the the date is in your
-course calendar. Create an issue on
-[the project2-gallery repository](https://github.com/ga-dc/project2-gallery)
-containing:
+course calendar. 
 
 - A link to your Github repository (Do not fork this repo)
 - A link to your project deployed on Heroku
