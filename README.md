@@ -19,25 +19,24 @@ beginners, _but for all developers._
 
 ## Description
 
-You will be building a JSON API using Mongoose and Express. In addition, you
-will find a dataset online to pull data from. You'll use this retrieved data to
-build your own model(s), and also to seed your database with.
+You will be building a JSON API using [Mongoose](https://mongoosejs.com/) and [Express](https://expressjs.com/). 
+Additionally, you will find a dataset online, pull data from it, and use this retrieved data to build your own models and seed your database.
 
-We recommend you use [axios](https://github.com/axios/axios) and the node
+We recommend you use [Axios](https://github.com/axios/axios) and Node's
 [filesystem](https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback)
-to get the data onto your computer. Axios is very similar to fetch, uses
-promises, and does an excellent job all around.
+library to get the data onto your computer. 
+Axios is very similar to `fetch` with a few more conveniences.
 
-There are many great APIs you can use, and we'll provide a list of suggestions. As
-usual, if you have another idea in mind, just run it by an instructor for
-approval.
+There are many great APIs you can use as your data and we are happy to provide suggestions. 
+As usual, if you have another idea in mind, just run it by an instructor for approval.
 
-Since you all have already built a JSON API, the additional focus
+Since you will have already built a JSON API, the additional focus
 of this project will be around **documentation** and **extra features**.
 
 In addition to building your API, you must document every route.
-You can do this in the Readme file of the project, or using a tool like Swagger
-or apidoc (see below). Every great API has great documentation to go with it! You can use the docs from other APIs as examples for how to write your own.
+You can do this in the README file of the project. 
+Every great API has great documentation to go with it! 
+Use the docs from other APIs as examples for how to write your own.
 
 ## Requirements
 
@@ -52,12 +51,11 @@ Your project must satisfy the following requirements:
   when it does not make sense in the context of your application to have full
   CRUD on one model). 
 - Have its own repository under your GitHub account (do not fork this repo).
-- Be deployed to Heroku (we will have a lesson on this later this week). (THIS IS REQUIRED)
-- Have good, clean Javascript code. Only include comments for documentation,
-  and don't include any non-functional code. Use the auto-formatter regularly!
+- Be deployed to Heroku (we will have a lesson on this later this week).
+- Have good, clean JavaScript code. Only include comments for documentation,
+  and don't include any non-functional code.
 - Demonstrate a good commit history.
-- Have well-documented API routes. You can do this in your Readme, or using
-  Swagger or apidoc (see below).
+- Have well-documented API routes in your README file.
 
 The above are minimum requirements. If you want some extra inspiration, try one
 of these ideas:
@@ -74,17 +72,13 @@ of these ideas:
   - Have your server require an auth token to accept requests.
   - http://jasonwatmore.com/post/2018/08/06/nodejs-jwt-authentication-tutorial-with-example-api
 
-Review the [Rubric](evaluation.md) for the specifics of how your project will be
-graded.
 
 ## Submission
 
 **_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository. Then, submit
-your project as an issue to this repo:
+your project as an issue to this repo.
 
-[Project 6 Issue](https://git.generalassemb.ly/dc-wdi-node-express/api-project/issues)
-
-With your submission please include any questions you'd like answered, or
+With your submission please include any questions you'd like answered or
 specific things on which you'd like us to focus when giving feedback.
 
 Your submission must include **all** of the following:
@@ -94,13 +88,12 @@ Your submission must include **all** of the following:
 Your project is due on the the date is in your
 course calendar. 
 
-- A link to your Github repository (Do not fork this repo)
+- A link to your GitHub repository (Do not fork this repo)
 - A link to your project deployed on Heroku
 
 Your repository should contain:
 
-- A working application (built by you) that meets the technical
-  requirements above.
+- A working application (built by you) that meets the technical requirements above.
 - Frequent commits dating back to the very beginning of the project.
 - A `readme.md` file in the root of your repo that follows
   [good standards of documentation](https://git.generalassemb.ly/ga-wdi-lessons/documentation-markdown)
@@ -109,7 +102,7 @@ Your repository should contain:
 - A link to your hosted, working application in the URL section of your Github
   repo:
 
-> ![The URL section of your Github repo](https://i.imgur.com/QQ7RsfR.gif)
+> ![The URL section of your GitHub repo](https://i.imgur.com/QQ7RsfR.gif)
 
 ## Planning
 
@@ -123,7 +116,7 @@ Your repository should contain:
 
 After planning your app:
 
-1. Start with building your model(s) and linking them to the database. Create a
+1. Start with building your models and linking them to the database. Create a
    couple pieces of seed data so that you can see data retrieved from your
    database (by a mongoose model) show up on the page later.
 1. Retrieve your data from the API.
