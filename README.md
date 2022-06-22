@@ -1,6 +1,6 @@
 # ![GA logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project: Building a JSON API
 
-This week, you will build a JSON API from the ground up!. This means we will be
+This week, you will build a JSON API from the ground up! This means we will be
 choosing an idea, planning it out, and then building it.
 This is exciting! We've given you the tools to build what you want, and now
 **you** get to decide what you do with it. Now is your chance to exercise your
