@@ -8,12 +8,3 @@ const insertData = async () => {
   db.close()
 }
 insertData()
-// let animeData = data.map(item => {
-//   let Anime = {}
-//   Anime.anime = item.anime
-//   Anime.character = item.character
-//   Anime.quote = item.quote
-//   return Anime
-// })
-
-// console.log(animeData)

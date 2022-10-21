@@ -26,6 +26,22 @@ export const getAnime = async (req, res) => {
   }
 };
 
+export const getAnimeByTitle = async (req, res) => {
+  try {
+    const { anime } = req.params;
+    const animed = await Anime.find({anime: anime});
+
+    if (animed) {
+      return res.json(animed);
+    }
+
+    return res.json(404).json({ message: "Character not found!" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: error.messsage });
+  }
+}
+
 export const createAnime = async (req, res) => {
   try {
     const animes = new Anime(req.body);
