@@ -20,7 +20,7 @@ function App() {
   
   return (
     <>
-      <h1>Starwars Info</h1>
+      <h1>Starwars character information</h1>
       <div className='boxes'>
         {starwars.map((starwars) => ( 
           <div className='information'>
