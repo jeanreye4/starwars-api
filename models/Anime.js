@@ -1,3 +1,4 @@
+
 import mongoose from "mongoose";
 const Schema = mongoose.Schema
 
@@ -8,4 +9,4 @@ let Anime = new Schema({
   img: String
 })
 
-export default mongoose.model("animes", Anime)
+export default mongoose.model("animes", Anime) 
