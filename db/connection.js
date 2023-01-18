@@ -4,8 +4,9 @@ let mongooseConfig = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 };
+
 const connectionString =
-  process.env.MONGO_URL || "mongodb://127.0.0.1:27017/AnimeDB";
+  process.env.MONGO_URL || "mongodb://0.0.0.0:27017/AnimeDB";
 
 mongoose.connect(connectionString, mongooseConfig);
 
